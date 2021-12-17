@@ -1,0 +1,70 @@
+.titul {
+  &__main {
+    font-size: 48px;
+    letter-spacing: 4.8px;
+    font-family: $font-secondary;
+    text-transform: uppercase;
+    font-weight: bold;
+    @media screen and (max-width: $tablet){
+      font-size: 40px;
+    }
+  }
+  &__sec {
+    font-family: $font-primary;
+    font-size: $font-size-sec;
+    @media screen and (max-width: $tablet){
+      font-size: $font-size-sec - 10px;
+    }
+  }
+  &__nav {
+    font-size: 24px;
+    font-family: $font-secondary;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+  }
+  &__four {
+    font-size: $font-size-premid;
+    font-family: $font-secondary;
+    text-transform: uppercase;
+    color: $color-primary;
+  }
+  &__five {
+    font-size: $font-size-premid;
+    font-family: $font-secondary;
+    letter-spacing: 1.5px;
+    color: $color-text;
+  }
+  &__footer {
+    font-size: 24px;
+    font-family: $font-secondary;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3.36px;
+  }
+}
+
+.paragraph {
+  font-family: $font-secondary;
+  &__header {
+    font-size: $font-size-mid;
+    letter-spacing: 6.82px;
+    @media screen and (max-width: $tablet){
+      font-size: $font-size-mid - 6px;
+    }
+    &-scroll {
+      letter-spacing: 2.8px;
+      font-size: $font-size-small;
+    }
+  }
+  &__roof {
+    letter-spacing: 1.6px;
+  }
+  &__house {
+    color: $color-text;
+  }
+  &__footer {
+    font-family: $font-secondary;
+    letter-spacing: 1.6px;
+  }
+}

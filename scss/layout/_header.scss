@@ -1,0 +1,110 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: $tablet){
+    .header__logo {
+      display: none;
+    }
+  }
+  &__content {
+    background-image: url("../image/header.jpg");
+    width: 100%;
+    height: 34.5vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    @media screen and (max-width: $desktop){
+      height: 50vw;
+    }
+    @media screen and (max-width: $tablet-xl){
+      height: 66vw;
+    }
+    @media screen and (max-width: $tablet){
+      height: 90vh;
+    }
+  }
+  &__titul {
+    margin-top: 155px;
+    margin-bottom: 11px;
+    padding-right: 50px;
+    @media screen and (max-width: $tablet){
+      padding-top: 125px;
+      padding-right: 0px;
+      margin: auto;
+    }
+  }
+  &__text {
+    margin-bottom: 50px;
+    padding-right: 50px;
+    @media screen and (max-width: $tablet){
+      padding-right: 0px;
+    }
+  }
+  &__form {
+    display: flex;
+    justify-content: center;
+  }
+  &__scroll {
+    margin-top: 112px;
+    margin-right: 50px;
+    @media screen and (max-width: $tablet){
+      margin: auto;
+      padding-top: 50px;
+    }
+    &__link {
+      text-decoration: none;
+      color: $color-primary;
+      cursor: pointer;
+    }
+  }
+  &__down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-right: 6px;
+  }
+  &__line {
+    display: flex;
+    flex-direction: row;
+    background-color: $color-quote;
+  }
+  &__logo {
+    margin: 32px 0px 31px 0px;
+    &__link {
+      text-decoration: none;
+      color: $color-primary;
+      @media screen and (max-width: $tablet){
+        font-size: 10px;
+      }
+    }
+  }
+  &__nav {
+    display: flex;
+    &__link {
+      text-decoration: none;
+      color: $color-primary;
+      font-family: $font-primary;
+      text-transform: uppercase;
+    }
+    &__item {
+      display: flex;
+      margin-left: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      @media screen and (max-width: $tablet){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 5px;
+        margin-bottom: 1px;
+      }
+    }
+    &__list {
+      margin-left: 22px;
+      @media screen and (max-width: $tablet){
+        margin-left: 0px;
+      }
+    }
+
+  }
+}

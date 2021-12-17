@@ -1,0 +1,55 @@
+//form.header__form button {
+//  float: left;
+//  padding: 18px 48px 17px 40px;
+//  //background: $color-quote;
+//  //color: $color-primary;
+//  font-size: 14px;
+//  //font-family: $font-primary;
+//  border: 2px solid $color-primary;
+//  letter-spacing: 1.4px;
+//  border-left: none; /* Prevent double borders */
+//  //cursor: pointer;
+//}
+//form.header__form button:hover {
+//  background: $color-search;
+//}
+.button {
+  background: $color-quote;
+  color: $color-primary;
+  font-size: 16px;
+  font-family: $font-primary;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:hover {
+    transition: all 0.5s ease-in-out;
+    background: $color-search;
+    color: $color-quote;
+  }
+  &__search {
+    float: left;
+    padding: 15px 0px 18px 34px;
+    font-size: 14px;
+    border: 2px solid $color-primary;
+    letter-spacing: 1.4px;
+    border-left: none; /* Prevent double borders */
+    @media screen and (max-width: $tablet){
+      padding: 10px 0px 11px 8px;
+    }
+  }
+  &__roof {
+    padding: 21px 40px 18px 35px;
+    @media screen and (max-width: $tablet){
+      padding: 10px 10px 10px 9px;
+    }
+  }
+  &__house {
+    padding: 22px 60px 18px 60px;
+    margin-bottom: 48px;
+  }
+  &__mountain {
+    padding: 22px 60px 18px 60px;
+    margin-bottom: 48px;
+  }
+
+}

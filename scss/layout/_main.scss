@@ -1,0 +1,303 @@
+.roof {
+  background-image: url("../image/roof.jpg");
+  width: 100%;
+  height: 38vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  @media screen and (max-width: $desktop-xl){
+    height: 45vw;
+  }
+  @media screen and (max-width: $desktop){
+    height: 66vw;
+  }
+  @media screen and (max-width: $container-width){
+    height: 58vw;
+  }
+  @media screen and (max-width: $tablet-xl) {
+    height: 124vw;
+  }
+  @media screen and (max-width: $tablet){
+    height: 76vh;
+    .roof__img {
+      display: none;
+    }
+  }
+  &__text {
+    width: 50%;
+    margin-top: 209px;
+    @media screen and (max-width: 1110px){
+      margin-top: 70px;
+    }
+    @media screen and (max-width: $tablet-xl) {
+      padding-top: 30px;
+      margin: auto;
+    }
+    @media screen and (max-width: $tablet){
+      width: 90%;
+    }
+  }
+  &__titul {
+    margin-bottom: 46px;
+    @media screen and (max-width: $tablet-xl) {
+      text-align: center;
+    }
+    @media screen and (max-width: $tablet){
+      margin-bottom: 33px;
+    }
+  }
+  &__paragraph {
+    margin-bottom: 27px;
+    &__2 {
+      margin-bottom: 48px;
+    }
+  }
+  &__img {
+    width: 50%;
+    margin-left: auto;
+    margin-top: -362px;
+    padding-left: 150px;
+    @media screen and (max-width: $tablet-xl) {
+      flex-wrap: wrap;
+      padding-left: 0px;
+      margin: auto;
+    }
+  }
+  &__pic1 {
+    padding-top: 35px;
+    @media screen and (max-width: $tablet-xl) {
+      width: 100%;
+    }
+  }
+  &__pic2 {
+    padding-left: 90px;
+    @media screen and (max-width: 1200px){
+      padding-left: 0px;
+    }
+    @media screen and (max-width: $tablet-xl) {
+      width: 100%;
+    }
+  }
+}
+.places {
+  background-color: $color-bg-centerblock;
+  display: flex;
+  @media screen and (max-width: $container-width) {
+    .places__top {
+      display: none;
+    }
+  }
+  &__img {
+    text-align: center;
+    @media screen and (max-width: $container-width) {
+      display: flex;
+      margin: auto;
+    }
+  }
+  &__1 {
+    padding-bottom: 107px;
+    padding-top: 25px;
+    @media screen and (max-width: $container-width) {
+      padding-bottom: 0px;
+      padding-top: 0px;
+    }
+  }
+  &__2 {
+    padding-left: 100px;
+    padding-right: 170px;
+    padding-bottom: 107px;
+    padding-top: 25px;
+    @media screen and (max-width: $container-width) {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-top: 0px;
+    }
+  }
+  &__3 {
+    padding-bottom: 92px;
+    padding-top: 25px;
+    @media screen and (max-width: $container-width) {
+      padding-bottom: 0px;
+      padding-top: 0px;
+    }
+  }
+  &__top {
+    margin-left: 172px;
+    margin-bottom: -103px;
+    margin-top: 54px;
+  }
+}
+.house {
+  background-image: url("../image/house.jpg");
+  width: 100%;
+  height: 39.5vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  @media screen and (max-width: 1520px){
+    height: 43vw;
+  }
+  @media screen and (max-width: $desktop){
+    height: 54vw;
+  }
+  @media screen and (max-width: $tablet-xl){
+    height: 61vw;
+  }
+  @media screen and (max-width: $tablet){
+    height: 81vh;
+  }
+  &__text {
+    width: 48.7%;
+    background-color: $color-bg-primary;
+    opacity: 0.9;
+    mix-blend-mode: normal;
+    margin-top: 211px;
+    padding-left: 30px;
+    padding-right: 5px;
+    @media screen and (max-width: $container-width){
+      margin-top: 30px;
+    }
+    @media screen and (max-width: $tablet){
+      width: 90%;
+      margin: auto;
+      margin-top: 20px;
+    }
+  }
+  &__titul {
+    margin-bottom: 12px;
+    margin-top: 23px;
+    &__up {
+      padding-top: 47px;
+      margin-bottom: 23px;
+    }
+  }
+  &__paragraph {
+    margin-bottom: 48px;
+  }
+}
+.mountain {
+  background-image: url("../image/mountain.jpg");
+  width: 100%;
+  height: 39vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  @media screen and (max-width: 1520px){
+    height: 43vw;
+  }
+  @media screen and (max-width: $desktop){
+    height: 54vw;
+  }
+  @media screen and (max-width: $tablet-xl){
+    height: 61vw;
+  }
+  @media screen and (max-width: $tablet){
+    height: 81vh;
+  }
+  &__text {
+    width: 48.7%;
+    background-color: $color-bg-primary;
+    opacity: 0.9;
+    mix-blend-mode: normal;
+    margin-top: 211px;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-left: auto;
+    @media screen and (max-width: $container-width){
+      margin-top: 30px;
+    }
+    @media screen and (max-width: $tablet){
+      width: 90%;
+      margin: auto;
+      margin-top: 20px;
+    }
+  }
+  &__titul {
+    margin-bottom: 12px;
+    margin-top: 23px;
+    &__up {
+      padding-top: 47px;
+      margin-bottom: 23px;
+    }
+  }
+  &__paragraph {
+    margin-bottom: 48px;
+  }
+}
+.tourist {
+  background-image: url("../image/tourist.jpg");
+  width: 100%;
+  height: 39vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  @media screen and (max-width: $desktop){
+    height: 50vw;
+  }
+  @media screen and (max-width: $tablet-xl){
+    height: 56vw;
+  }
+  @media screen and (max-width: $tablet){
+    height: 110vh;
+  }
+  &__titul {
+    text-align: center;
+    margin-top: 123px;
+    @media screen and (max-width: $container-width){
+      margin-top: 54px;
+    }
+    @media screen and (max-width: $tablet){
+      margin-top: 40px;
+    }
+    &__text {
+      margin-top: 140px;
+      margin-bottom: 2px;
+      @media screen and (max-width: $tablet-xl){
+        margin-top: 60px;
+        margin-left: 10px;
+      }
+      @media screen and (max-width: $tablet){
+        margin-top: 22px;
+      }
+    }
+  }
+  &__block {
+    display: flex;
+    @media screen and (max-width: $tablet){
+      display: flex;
+      flex-direction: column;
+      margin-top: -60px;
+    }
+    &__pic {
+      @media screen and (max-width: $tablet-xl){
+        width: 100%;
+      }
+      @media screen and (max-width: $tablet){
+        width: 250%;
+      }
+    }
+    &__img {
+      width: 40%;
+      margin-top: 93px;
+    }
+    &__text {
+      width: 60%;
+      padding: 0px 22px 0px 60px;
+      @media screen and (max-width: $tablet){
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+        width: 90%;
+        margin: auto;
+      }
+    }
+  }
+  &__quote {
+    letter-spacing: 0.15px;
+  }
+}
